@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39" started-at="2022-02-27T19:23:30Z" finished-at="2022-02-27T19:23:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39" started-at="2022-02-27T19:23:30Z" finished-at="2022-02-27T19:23:30Z">
+      <class name="Day1.testNGday1exc">
+        <test-method status="PASS" signature="Fifthtest()[pri:0, instance:Day1.testNGday1exc@7921b0a2]" name="Fifthtest" duration-ms="9" started-at="2022-02-28T00:53:30Z" finished-at="2022-02-28T00:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fifthtest -->
+        <test-method status="PASS" signature="Fourthtest()[pri:0, instance:Day1.testNGday1exc@7921b0a2]" name="Fourthtest" duration-ms="2" started-at="2022-02-28T00:53:30Z" finished-at="2022-02-28T00:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fourthtest -->
+        <test-method status="PASS" signature="Secondtest()[pri:0, instance:Day1.testNGday1exc@7921b0a2]" name="Secondtest" duration-ms="2" started-at="2022-02-28T00:53:30Z" finished-at="2022-02-28T00:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Secondtest -->
+        <test-method status="PASS" signature="Thirdtest()[pri:0, instance:Day1.testNGday1exc@7921b0a2]" name="Thirdtest" duration-ms="1" started-at="2022-02-28T00:53:30Z" finished-at="2022-02-28T00:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thirdtest -->
+        <test-method status="PASS" signature="firsttest()[pri:0, instance:Day1.testNGday1exc@7921b0a2]" name="firsttest" duration-ms="4" started-at="2022-02-28T00:53:30Z" finished-at="2022-02-28T00:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttest -->
+      </class> <!-- Day1.testNGday1exc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
