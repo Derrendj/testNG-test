@@ -2,31 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="213" started-at="2022-06-22T20:23:59Z" finished-at="2022-06-22T20:23:59Z">
+  <suite name="Default suite" duration-ms="255" started-at="2022-06-22T20:40:13Z" finished-at="2022-06-22T20:40:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="213" started-at="2022-06-22T20:23:59Z" finished-at="2022-06-22T20:23:59Z">
+    <test name="Default test" duration-ms="255" started-at="2022-06-22T20:40:13Z" finished-at="2022-06-22T20:40:13Z">
       <class name="testScripts.login">
-        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:testScripts.login@5ec0a365]" name="browserlaunch" is-config="true" duration-ms="9006" started-at="2022-06-23T01:53:50Z" finished-at="2022-06-23T01:53:59Z">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:testScripts.login@4fe3c938]" name="browserlaunch" is-config="true" duration-ms="10418" started-at="2022-06-23T02:09:54Z" finished-at="2022-06-23T02:10:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testScripts.login@5ec0a365]" name="teardown" is-config="true" duration-ms="0" started-at="2022-06-23T01:53:59Z" finished-at="2022-06-23T01:53:59Z">
+        <test-method status="PASS" signature="browseropen()[pri:0, instance:testScripts.login@4fe3c938]" name="browseropen" is-config="true" duration-ms="8537" started-at="2022-06-23T02:10:04Z" depends-on-methods="testNg.launch.browserlaunch" finished-at="2022-06-23T02:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseropen -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testScripts.login@4fe3c938]" name="teardown" is-config="true" duration-ms="0" started-at="2022-06-23T02:10:13Z" finished-at="2022-06-23T02:10:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginfb status=SUCCESS method=login.loginfb()[pri:0, instance:testScripts.login@5ec0a365] output={null}]]]>
+                <![CDATA[[TestResult name=loginfb status=SUCCESS method=login.loginfb()[pri:0, instance:testScripts.login@4fe3c938] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="loginfb()[pri:0, instance:testScripts.login@5ec0a365]" name="loginfb" duration-ms="181" started-at="2022-06-23T01:53:59Z" finished-at="2022-06-23T01:53:59Z">
+        <test-method status="PASS" signature="loginfb()[pri:0, instance:testScripts.login@4fe3c938]" name="loginfb" duration-ms="206" started-at="2022-06-23T02:10:13Z" finished-at="2022-06-23T02:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginfb -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.login@5ec0a365]" name="closeBrowser" is-config="true" duration-ms="1196" started-at="2022-06-23T01:53:59Z" finished-at="2022-06-23T01:54:00Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testScripts.login@4fe3c938]" name="closebrowser" is-config="true" duration-ms="1269" started-at="2022-06-23T02:10:13Z" finished-at="2022-06-23T02:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.login@4fe3c938]" name="closeBrowser" is-config="true" duration-ms="74" started-at="2022-06-23T02:10:15Z" depends-on-methods="testScripts.login.closebrowser" finished-at="2022-06-23T02:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

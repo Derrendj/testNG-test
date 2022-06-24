@@ -2,11 +2,23 @@ package testScripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import testNg.launch;
 
 public class login extends launch{
+	
+	@BeforeSuite
+	public void browseropen() throws Throwable {
+		browserlaunch();
+	}
+	@AfterSuite
+	public void closebrowser() {
+		closeBrowser();
+		
+	}
 	
 	@Test
 	public void loginfb() {
